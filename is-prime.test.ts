@@ -1,23 +1,23 @@
-import isprime from './is-prime';
+import isPrime from './is-prime';
 
-describe("isprime", () => {
+describe("isPrime", () => {
   test("returns false for 0", () => {
-    expect(isprime(0)).toBe(false);
+    expect(isPrime(0)).toBe(false);
   });
 
   test("returns true for -7", () => {
-    expect(isprime(-7)).toBe(false);
+    expect(isPrime(-7)).toBe(false);
   });
 
   test("returns true for 7", () => {
-    expect(isprime(7)).toBe(true);
+    expect(isPrime(7)).toBe(true);
   });
 
   test("returns true for 11", () => {
-    expect(isprime(11)).toBe(true);
+    expect(isPrime(11)).toBe(true);
   });
 
   test("returns false for 12", () => {
-    expect(isprime(12)).toBe(false);
+    expect(isPrime(12)).toBe(false);
   });
 });
