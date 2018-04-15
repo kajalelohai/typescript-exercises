@@ -5,6 +5,10 @@ describe("isprime", () => {
     expect(isprime(0)).toBe(false);
   });
 
+  test("returns true for -7", () => {
+    expect(isprime(-7)).toBe(false);
+  });
+
   test("returns true for 7", () => {
     expect(isprime(7)).toBe(true);
   });

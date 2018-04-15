@@ -1,10 +1,14 @@
-const isprime = (num:number):boolean => {
+const isPrime = (num: number): boolean => {
+  if(num <= 0) {
+    return false;
+  }
   for (let i = 2; i < num; i++) {
-        if (num % i === 0) {
-           return false;
-         }
-      }
-  return true;
+    if (num % i === 0) {
+      return false;
+    }
+  }
+
+  return true;  
 };
 
-export default isprime;
+export default isPrime;

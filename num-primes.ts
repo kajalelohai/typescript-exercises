@@ -1,10 +1,10 @@
-import  isprime  from './is-prime';
+import  isPrime  from './is-prime';
 const numPrime = (num) => {
   let list = [];
   let count = 1;
   let startprime = 2;
   while (count <= num) {
-    if (isprime(startprime) === true) {
+    if (isPrime(startprime) === true) {
       list.push(startprime);
       count++;
     }
