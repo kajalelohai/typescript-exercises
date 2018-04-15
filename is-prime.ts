@@ -1,4 +1,4 @@
-export const isprime = (num:number):boolean => {
+const isprime = (num:number):boolean => {
   for (let i = 2; i < num; i++) {
         if (num % i === 0) {
            return false;
@@ -6,3 +6,5 @@ export const isprime = (num:number):boolean => {
       }
   return true;
 };
+
+export default isprime;
